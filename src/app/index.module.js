@@ -18,7 +18,7 @@ angular.module('angularEs6', ['ngAnimate', 'ngCookies', 'ngSanitize', 'ngMessage
   .config(routerConfig)
   .controller('MainController', MainController)
   .controller('ToDoController', ToDoController)
-  .service('TodoService', TodoService)
+  .service('TodoService', TodoService);
   // .service('githubContributor', GithubContributorService)
   // .service('webDevTec', WebDevTecService)
   // .controller('MainController', MainController)
